@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(222, 161, 161);
+    background-color: rgb(161, 222, 203);
 }
 a {
     color: rgb(30, 103, 167);
@@ -12,4 +12,12 @@ h1 {
 }
 img {
     width: 350px;
+}
+
+.gray {
+    background-color: rgb(182, 182, 182);
+}
+#active {
+    background-color: rgb(104, 151, 189);
+    color: white
 }
