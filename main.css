@@ -1,6 +1,8 @@
 body {
     background-color: rgb(161, 222, 203);
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 a {
     color: rgb(30, 103, 167);
@@ -34,6 +36,7 @@ img {
     width: 40%;
     display: block;
     margin: 0 auto;
+    border-radius: 80%
 }
 p {
     width: 90%;
@@ -43,6 +46,10 @@ p {
 
 .gray {
     background-color: rgb(182, 182, 182);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-radius: 20px;
 }
 #active {
     background-color: rgb(104, 151, 189);

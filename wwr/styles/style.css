@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -12,20 +15,28 @@
 #hero-img {
     width: 100%;
 }
+#logo_link {
+    padding-top: 5px;
+}
 
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .button-box {
     text-align: center;
 }
 .book, .join {
+    font-size: 18px;
     background-color: #FDCA40;
     color:#33a1fd;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #ffa724;
@@ -33,25 +44,49 @@
 }
 .msg {
     background-color: #33a1fd;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
+    font-family: "Protest Guerrilla", "IM Fell French Canon", "Helvetica";
     color: #FDCA40;
 }
 .msg p {
+    font-size: .8em;
     color: white;
+    padding-bottom: 15px;
 }
 .home-title {
+    font-family: "Protest Guerrilla", "IM Fell French Canon", "Helvetica";
+    font-size: 2em;
     color: #2176FF;
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #33a1fd;
 }
 
 main {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 body {
+    font-family: "Lato", "Helvetica", "sans-serif";
+    font-size: 22px;
     background-color: lightblue;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #33a1fd;
+}
+h2 {
+    margin 0;
 }
 h4 {
     color: #ffa724;
@@ -60,14 +95,18 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #FDCA40;
     color: #2176FF;
 }
+
 footer {
     background-color: #1c5ec7;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -81,4 +120,7 @@ footer a {
 }
 footer a:hover {
     color: #ffa724;
+}
+footer .social img {
+    padding-top: 15px;
 }
