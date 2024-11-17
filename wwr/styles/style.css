@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 
+/* HOME PAGE */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -231,4 +232,66 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+}
+
+/* PAGE 2 */
+
+section h3 {
+    font-family: "Protest Guerrilla", "IM Fell French Canon", "Helvetica";
+    font-size: 1.5em;
+    color: #1c5ec7;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.page2-grid {
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+.page2-grid p {
+    font-size: 0.9em;
+    text-align: left;
+}
+.page2-grid #second-river p {
+    text-align: right;
+}
+
+#page2-title {
+    text-align: center;
+}
+#page2-title p {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:#1c5ec7
+}
+#first-river {
+    background-color: #FDCA40;
+    padding: 10px;
+    grid-row: 1/2;
+}
+#first-river img, #third-river img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-right: 10px;
+}
+#second-river {
+    background-color: #33a1fd;
+    padding: 10px;
+    grid-row: 2/3;
+}
+#second-river img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-left: 10px;
+}
+#second-river h3 {
+    color:#ffa724;
+    text-align: right;
+}
+#third-river {
+    background-color: #FDCA40;
+    padding: 10px;
+    grid-row: 3/4;
 }
