@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Guerrilla&family=Rowdies:wght@300;400;700&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Kanit", "IM Fell French Canon", "Helvetica";
+}
+#logo_link {
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+}
+#introduction {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+#introduction img {
+    margin: 0 20px;
+    width: 300px;
+}
+
+.logo {
+    width: 80px;
+}
+.title p {
+    text-align: center;
+    font-size: 30px;
+    color: #391535;
+}
+.section_break {
+    background-color: #391535;
+    color:rgb(247, 255, 188);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px 0px 20px 0px;
+}
+.white_break {
+    background-color: #ffffff;
+    border: 5px solid;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+.green_break {
+    background-color: #43ff43;
+    border: 5px solid;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+.red_break {
+    background-color: #d90000;
+    border: 5px solid;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+.orange_break {
+    background-color: #ff8800;
+    border: 5px solid;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+.lunar_break {
+    background-color: #00a6ff;
+    border: 5px solid;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 80%;
+    padding: 20px 0px 20px 0px;
+}
+
+.core-gameplay {
+    margin-bottom: 40px;
+}
+
+.core-gameplay p {
+    font-size: 20px;
+}
+
+.core-gameplay h2 {
+    margin-bottom: 10px;
+}
+
+/* Layout for each section */
+.core-gameplay .content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.core-gameplay img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.core-gameplay p {
+    flex: 1;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #5ec4f7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: rgb(247, 255, 188);
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #c2e1f1;
+    color: #1e5882;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #1e5882;
+    font-family: "Rowdies", "IM Fell French Canon", "Helvetica";
+}
+h2 {
+    text-align: center;
+    font-family: "Kanit", "IM Fell French Canon", "Helvetica";
+    color: #1e5882;
+}
+
+footer {
+    background-color: #391535;
+    color: rgb(247, 255, 188);
+    padding: 25px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 1.4em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}  
+footer a {
+    color:#FDCA40;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffa724;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+#subtitle {
+    color: #391535;
+    font-size: 2em;
+}
+
+
+
+/* Image button styling */
+.image-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.image-button img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Fullscreen overlay (hidden by default) */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    display: none; /* Hidden by default */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Display overlay when it's targeted */
+.overlay:target {
+    display: flex;
+}
+
+/* Overlay content block */
+.overlay-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 80%;
+}
+
+/* Close button styling */
+.close-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5ec4f7;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.close-button:hover {
+    background-color: #1e5882;
+}
